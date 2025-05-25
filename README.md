@@ -1,4 +1,4 @@
-**Disentangling the quartet of interactions**
+### Disentangling the quartet of interactions
 The method describes the _in silico_ to identify the quartet of interactions among species pairs. The approach disentangles the net interactions into positive and negative components. The method employs genome-scale metabolic models to predict the growth rates of the microbial species when simulated in communities. Using the predicted growth-resource curves of each species, we estimate the competitive and cooperative components, assuming the predominance of metabolic interactions. Thus, each species pair is defined by a quartet of interactions, the competitive and cooperative interactions of each species with the other. 
 
 The method is demonstrated by employing two different algorithms for estimating the growth rate in communities, SteadyCom (MATLAB) and MICOM (Python). 
